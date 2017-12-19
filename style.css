@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(3413543261_1510e079ae.jpg);
+	color: #000305;
+	font-size: 90%;
+	font-family: arial, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	line-height: 1.5;
+	text-align: left
+}
+
+a {text-decoration: none;}
+a:link, a:visited { color: #243A6C;}
+a:hover, a:active { color: #FBB03B;}
+
+.body {
+	margin: 20px auto;
+	width: 90%;
+	clear: both;
+}
+
+/*____________________ Main Header  */
+
+.mainheader img {
+	width: 100%;
+}
+
+.mainheader nav {
+	background-color: #F1B04A;
+	height: 50px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+}
+
+.mainheader nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+	
+}
+.mainheader nav ul li {
+	display: inline;
+	
+}
+.mainheader a:link, .mainheader a:visited {
+	color: 243A6B;
+	padding: 15px 70px;
+	display: inline-block;
+	height: 20px;
+}
+
+.mainheader a:hover, .mainheader a:active {
+	color: #F1B04A;
+	background-color: #243A6B;
+	box-shadow: 2px 1px #000;
+	border-radius: 7px
+}
+
+/* ---------- MAIN CONTENT ___________*/
+
+.maincontent {
+	width: 70%;
+	float: left;
+	
+}
+.top-content {
+	background-color: #FFFFFF;
+	padding: 4.5%;
+	margin: 2%;	
+	border-radius: 20px
+
+}
+
+.post-info {
+	font-size: 90%;
+	color: #999;
+	font-style: italic;
+	margin-top: -20px;
+}
+
+
+.post-content {
+	display: inline;
+}
+
+/* ---------- said ___________*/
+
+.thsidebar {
+	width: 24%;
+	margin:1.5% 0 0 2.5%;
+	float: left;
+	padding: 1%;
+	background-color: #CCCCCC;
+	border-radius: 15px;
+}
+
+
+/*------- footer --------*/
+
+.fooder {
+	float: left;
+	width: 100%;
+	background-color: #F1B04A;
+	height: 40px;
+	border-radius: 5px;
+}
+.fooder p {
+	text-align: center;
+	color: 243A6B;
+	width: 90%:
+}
+
+
+/* -------------- html 5 ----- */
+.post-img {
+	width: 50%;
+ 	border-radius: 20px;	
+	padding: 3px;
+	margin:5px 200px;
+
+}
+figure {
+	font-size: 80%;
+	color: #999;
+}
+
+
+
+
+/*___________ css3 for mobile_______*/
+
+
+
+
+
+@media screen and (max-width: 480px){
+	.body {
+		
+	width:120%;
+	font-size: 95%;
+		
+		
+		}		
+	
+}
+
+/*____________________ Main Header mobil  */
+
+
+@media screen and (max-width: 480px){
+
+.mainheader nav {
+	height: 150px;
+	
+}
+@media screen and (max-width: 480px){
+
+.mainheader ul {
+	widows: 100;
+	padding: 0;
+}
+.mainheader nav ul li {
+	display: inline;
+	
+}
+.mainheader a:link, .mainheader a:visited {
+	color: 243A6B;
+	padding: 15px 70px;
+	display: inline-block;
+	height: 20px;
+	display: block;
+}
+@media screen and (max-width: 480px){
+
+.mainheader a:hover, .mainheader a:active {
+	color: #F1B04A;
+	background-color: #243A6B;
+	box-shadow: 2px 1px #000;
+	border-radius: 7px
+}
+
+.thsidebar {
+	width: 92%;
+	
+}
+
+
